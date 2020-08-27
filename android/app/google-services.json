@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "281805880510",
+    "firebase_url": "https://quizbuilder-1703e.firebaseio.com",
+    "project_id": "quizbuilder-1703e",
+    "storage_bucket": "quizbuilder-1703e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281805880510:android:4a5e49399eaf78992872ef",
+        "android_client_info": {
+          "package_name": "com.example.quizbuilder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281805880510-edeaqbs5769rrprj2kfleof3f20tpdvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMQeIGMcKvuPiapjLiK_38dVk76u95th4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281805880510-edeaqbs5769rrprj2kfleof3f20tpdvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
