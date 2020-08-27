@@ -8,8 +8,6 @@ class HelperFunctions {
     prefs.setBool(userLoggrdInKey, isLoggedin);
   }
 
-  static Future<bool> getUserLoggedInDetails() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    return prefs.getBool(userLoggrdInKey);
+  
   }
 }
