@@ -1,12 +1,4 @@
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:quizbuilder/models/user.dart';
 
-class AuthService {
-  FirebaseAuth _auth = FirebaseAuth.instance;
-  // function checking for the anonymys users
-  User _userFromFirebaseUser(FirebaseUser user) {
-    return user != null ? User(user.uid) : null;
-  }
 
   Future signInEmailAndPass(String email, String password) async {
     try {
