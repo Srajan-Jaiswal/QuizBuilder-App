@@ -1,7 +1,7 @@
 # QuizBuilder
-<img src="Screenshots/SS_1.jpg" width="300" >
+<img src="Screenshots/SS_1.jpg" width="400" >
 
-![](Screenshots/SS_1.jpg)
+!
 
 
 
