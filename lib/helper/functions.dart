@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
+//  helper function class
 class HelperFunctions {
   static String userLoggrdInKey = "USERLOGGEDINKEY";
   static saveUserLoggedInDetails({@required bool isLoggedin}) async {
