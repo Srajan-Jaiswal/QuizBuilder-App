@@ -20,15 +20,7 @@ class _AddQuestionState extends State<AddQuestion> {
         _isLoading = true;
       });
 
-      Map<String, String>
-          questionMap = //map used in database.dart  add question data
-          {
-        "question": question,
-        "option1": option1,
-        "option2": option2,
-        "option3": option3,
-        "option4": option4
-      };
+      
       // this is a condition to validate the form
       await databaseService
           .addQuestionData(questionMap, widget.quizId)
